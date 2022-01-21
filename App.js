@@ -9,8 +9,8 @@ import {
 export default function App() {
   // Carregando font
   const [fonteCarregada] = useFonts({
-    "MontserratRegular": Montserrat_400Regular,
-    "MontserratBold": Montserrat_700Bold,
+    MontserratRegular: Montserrat_400Regular,
+    MontserratBold: Montserrat_700Bold,
   });
 
   if (!fonteCarregada) {
