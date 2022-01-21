@@ -5,13 +5,13 @@ import Topo from "../componentes/Topo";
 import Detalhes from "../componentes/Detalhes";
 
 // Componente Funcional
-export default function Cesta() {
+export default function Cesta({ topo, detalhes }) {
   return (
     <>
-      <Topo />
+      <Topo {...topo} />
 
       <View style={estilo.cesta}>
-        <Detalhes />
+        <Detalhes {...detalhes} />
       </View>
     </>
   );
