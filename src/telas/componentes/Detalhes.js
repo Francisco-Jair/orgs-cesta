@@ -64,7 +64,7 @@ const estilo = StyleSheet.create({
     marginTop: 16,
     backgroundColor: "#2a9f85",
     paddingVertical: 16,
-    borderRadius: 16,
+    borderRadius: 6,
   },
   textoBotao: {
     textAlign: "center",
